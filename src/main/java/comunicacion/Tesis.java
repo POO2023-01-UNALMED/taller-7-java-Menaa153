@@ -71,7 +71,7 @@ public class Tesis extends Escrito {
 
     @Override
     public String toString() {
-        return String.format("%s\n%s\n%s\n%d\n%s\n%d\n%s\n%s\n%s",
+        return String.format("%s\n%s\n%s\n%d\n%s\n%d\n%s\n%s",
         getOrigen(),
         getTitulo(),
         getAutor(),
@@ -79,7 +79,6 @@ public class Tesis extends Escrito {
         idea,
         argumentos.length,
         conclusion,
-        referencias,
-        interpretacion);
+        referencias);
     }
 }
