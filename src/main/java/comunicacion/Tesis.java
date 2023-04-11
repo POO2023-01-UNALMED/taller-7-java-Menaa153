@@ -77,7 +77,7 @@ public class Tesis extends Escrito {
         getAutor(),
         getPaginas(),
         idea,
-        argumentos,
+        argumentos.length,
         conclusion,
         referencias,
         interpretacion);

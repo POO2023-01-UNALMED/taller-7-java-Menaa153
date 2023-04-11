@@ -39,11 +39,11 @@ public class Fabula extends Escrito {
 
     @Override
     public String toString() {
-        return String.format("Origen: %s\nTítulo: %s\nAutor: %s\nPáginas: %d\nEnseñanza: %s", 
-        getOrigen(),
-        getTitulo(),
-        getAutor(),
-        getPaginas(),
-        ensenanza);
+        return String.format("%s\n%s\n%s\n%d\n%s",
+        super.getOrigen(),
+        super.getTitulo(),
+        super.getAutor(),
+        super.getPaginas(),
+        getEnsenanza());
     }
 }
